@@ -1,4 +1,4 @@
-<?
+<?php
 function lowerMAC($macaddr)
 {
 	$hexarray = explode(':',$macaddr);
