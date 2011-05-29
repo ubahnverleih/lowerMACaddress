@@ -1,5 +1,8 @@
-lowerMACaddress is a simple PHP-Function to convert UPPERCASE MAC-Addresses to lowercase MAC-Addresses.
+lowerMACaddress is a simple PHP-function to convert UPPERCASE MAC-Addresses to lowercase MAC-Addresses.
 Example: 0F:43:00:0B:CB:D3 to f:43:0:b:cb:d3 (0F -> f, 00 -> 0)
+
+echo lowerMAC("0F:43:00:0B:CB:D3");
+f:43:0:b:cb:d3
 
 Mac OSX and iOS use this lower case format.
 
